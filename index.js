@@ -1,3 +1,6 @@
+//this will read al the env vars in the '.env'
+require("dotenv").config()
+
 const express = require("express")
 const helmet = require("helmet")
 const welcomeRouter = require("./welcome/welcome-router")
